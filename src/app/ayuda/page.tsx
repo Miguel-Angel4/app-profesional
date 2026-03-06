@@ -16,9 +16,10 @@ export default function AyudaPage() {
             <CardTitle>Manual (HTML)</CardTitle>
           </CardHeader>
           <CardContent className="text-sm text-muted-foreground space-y-2">
-            <p>Incluye tu manual en <code className="text-xs">public/help/manual.html</code>.</p>
-            <a className="underline" href="/help/manual.html" target="_blank" rel="noreferrer">
-              Abrir manual.html
+            <p>Accede a la documentación completa del sistema.</p>
+            <a className="inline-flex items-center gap-2 text-primary hover:underline font-medium" href="/ayuda/manual">
+              Abrir manual de usuario
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
             </a>
           </CardContent>
         </Card>
